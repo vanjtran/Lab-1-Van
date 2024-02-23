@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://c21iy4ek1lgch"]
+
+[ext_resource type="Texture2D" uid="uid://c1kglsb8dpnr6" path="res://beautiful-sea-view-tropical-beach-vector-background-beautiful-sea-panorama-tropical-beach-vector-background-113390822.webp" id="1_u5lpn"]
+[ext_resource type="Texture2D" uid="uid://dfqojcaetyqg5" path="res://shell-underwater-clip-art-element-transparent-background-png.webp" id="2_mlhag"]
+[ext_resource type="Texture2D" uid="uid://dj23k1cljyx66" path="res://seashell2.png" id="3_82pc5"]
+
+[node name="Beautiful-sea-view-tropical-beach-vector-background-beautiful-sea-panorama-tropical-beach-vector-background-113390822" type="Sprite2D"]
+position = Vector2(1290, 783.375)
+scale = Vector2(3.2125, 3.60722)
+texture = ExtResource("1_u5lpn")
+
+[node name="Shell-underwater-clip-art-element-transparent-background-png" type="Sprite2D" parent="."]
+position = Vector2(-314.003, 137.394)
+scale = Vector2(0.0458192, 0.0507293)
+texture = ExtResource("2_mlhag")
+
+[node name="Shell-underwater-clip-art-element-transparent-background-png2" type="Sprite2D" parent="."]
+position = Vector2(-328.628, -152.086)
+scale = Vector2(0.0435371, 0.0513504)
+texture = ExtResource("2_mlhag")
+
+[node name="Seashell2" type="Sprite2D" parent="."]
+position = Vector2(-307.237, -16.7372)
+scale = Vector2(0.269027, 0.227477)
+texture = ExtResource("3_82pc5")
