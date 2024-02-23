@@ -1,15 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://blt1q2owi88il"]
+[gd_scene load_steps=3 format=3 uid="uid://blt1q2owi88il"]
 
 [ext_resource type="Texture2D" uid="uid://dj23k1cljyx66" path="res://seashell2.png" id="1_ogyc3"]
 [ext_resource type="Script" path="res://Seashell2.gd" id="2_k723e"]
-[ext_resource type="Texture2D" uid="uid://dfqojcaetyqg5" path="res://shell-underwater-clip-art-element-transparent-background-png.webp" id="3_5c34s"]
 
 [node name="Seashell2" type="Sprite2D"]
-position = Vector2(448, 841)
+modulate = Color(1, 0.631373, 1, 1)
+position = Vector2(256, 235)
 texture = ExtResource("1_ogyc3")
 script = ExtResource("2_k723e")
-
-[node name="Shell-underwater-clip-art-element-transparent-background-png" type="Sprite2D" parent="."]
-position = Vector2(56.9999, 797)
-scale = Vector2(0.361979, 0.391146)
-texture = ExtResource("3_5c34s")
